@@ -289,7 +289,7 @@ button.gift-denom span { display: block; margin-top: 4px; }
 .booking-demo h3 { color: var(--cream); }
 .demo-calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; margin: 16px 0; }
 .demo-calendar .day { aspect-ratio: 1; border-radius: 6px; border: 1px solid var(--line); display: grid; place-items: center; font-size: 0.85rem; color: #b9b6af; }
-.demo-calendar .day.available { background: rgba(232,163,61,0.16); color: var(--amber); border-color: rgba(232,163,61,0.5); font-weight: 600; }
+.demo-calendar .day.available { background: rgba(251,233,5,0.16); color: var(--amber); border-color: rgba(251,233,5,0.5); font-weight: 600; }
 .demo-calendar .day.unavailable { opacity: 0.28; }
 .demo-fields { display: grid; gap: 10px; margin: 16px 0; }
 .demo-fields input, .demo-fields select {
