@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://davebunn1.github.io/shaner-auto-detailing-website/sitemap.xml
