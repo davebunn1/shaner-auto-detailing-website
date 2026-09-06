@@ -1,6 +1,6 @@
 /* ============================================================
    SHANER AUTO DETAILING LLC — shared design system
-   Iron Prairie · 2026-09-06 · premium dark/amber detailing
+   Iron Prairie · 2026-09-06 · premium dark/Shaner-yellow detailing
    Workers: use ONLY classes defined here. Never inline styles.
    ============================================================ */
 
@@ -8,8 +8,8 @@
   --charcoal: #0D0F12;
   --graphite: #15181C;
   --graphite-2: #1C2025;
-  --amber: #E8A33D;
-  --amber-hover: #F4B95A;
+  --amber: #FBE905;
+  --amber-hover: #E4D600;
   --cream: #F5F2EC;
   --muted: #9AA0A6;
   --line: rgba(245, 242, 236, 0.10);
@@ -158,7 +158,7 @@ nav.main a.active { color: var(--amber); }
 .hero-logo { display: flex; justify-content: center; margin-bottom: 26px; }
 .hero-logo img {
   width: min(500px, 90vw);
-  filter: drop-shadow(0 0 34px rgba(232,163,61,0.35));
+  filter: drop-shadow(0 0 34px rgba(251,233,5,0.35));
 }
 .hero h1 { margin-bottom: 18px; color: var(--cream); }
 .hero .lead { margin-inline: auto; margin-bottom: 30px; }
@@ -194,7 +194,7 @@ nav.main a.active { color: var(--amber); }
   box-shadow: 0 6px 24px rgba(13,15,18,0.06);
 }
 .section--dark .pkg-card, .section--graphite .pkg-card { background: var(--graphite-2); border-color: var(--line); color: var(--cream); }
-.pkg-card--popular { border: 2px solid var(--amber); box-shadow: 0 18px 44px rgba(232,163,61,0.18); }
+.pkg-card--popular { border: 2px solid var(--amber); box-shadow: 0 18px 44px rgba(251,233,5,0.18); }
 .popular-tag {
   position: absolute; top: -14px; left: 50%; transform: translateX(-50%);
   background: var(--amber); color: #14100a;
@@ -268,7 +268,7 @@ nav.main a.active { color: var(--amber); }
 }
 .offer-deadline {
   display: inline-block;
-  background: rgba(232,163,61,0.14);
+  background: rgba(251,233,5,0.14);
   border: 1px solid var(--amber);
   color: var(--amber);
   font-family: var(--font-display); font-weight: 700; text-transform: uppercase;
