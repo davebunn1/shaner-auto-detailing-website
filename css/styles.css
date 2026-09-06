@@ -369,3 +369,26 @@ footer li { padding: 3px 0; font-size: 0.93rem; }
   .btn { padding: 13px 20px; font-size: 0.96rem; }
   .proof-grid, .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 }
+
+/* ============================================================
+   READABILITY LAYER (Dave QC 09-06) — brand yellow is a FILL /
+   dark-surface accent. On LIGHT surfaces text accents drop to
+   dark-gold #7A6400 (5.15:1 on cream, 5.75:1 on white) and muted
+   text to #565C64 (6.0:1). WCAG-verified values.
+   ============================================================ */
+.section--light { --muted: #565C64; }
+.section--light .eyebrow { color: #7A6400; }
+.section--light p a,
+.section--light li a {
+  color: #14100A;
+  text-decoration: underline;
+  text-decoration-color: rgba(122,100,0,0.55);
+  text-underline-offset: 3px;
+}
+.section--light p a:hover,
+.section--light li a:hover { color: #6E5B00; text-decoration-color: #6E5B00; }
+.section--light .pkg-price { color: #14100A; }
+.section--light .pkg-price small { color: var(--muted); }
+.section--light .pkg-includes li::before { color: #7A6400; }
+.section--light .offer-deadline { color: #7A6400; border-color: rgba(122,100,0,0.55); background: rgba(251,233,5,0.18); }
+.section--light .demo-badge { border-color: #7A6400; color: #7A6400; }
