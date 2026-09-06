@@ -16,6 +16,8 @@ small SUV — large SUV / vans.
 - **3-year ceramic coating** — $800 (all vehicles)
 - **6+ year ceramic coating** — $1,200 (all vehicles)
 - **Golf cart & motorcycle coatings** — from $400–600 depending on coating chosen
+- **Window coatings** — from $25 per window, or $100 for all windows
+- **Wheel coatings** — $150
 
 NOTES: "All exteriors start @ $150 with 3 month sealant" (flat — confirm whether
 large SUV/vans differ). No add-on price list confirmed; paint correction not
