@@ -371,24 +371,83 @@ footer li { padding: 3px 0; font-size: 0.93rem; }
 }
 
 /* ============================================================
-   READABILITY LAYER (Dave QC 09-06) — brand yellow is a FILL /
-   dark-surface accent. On LIGHT surfaces text accents drop to
-   dark-gold #7A6400 (5.15:1 on cream, 5.75:1 on white) and muted
-   text to #565C64 (6.0:1). WCAG-verified values.
+   CONTRAST & READABILITY FIXES (rendered-audit driven, 09-06).
+   Principles from real on-screen computed styles:
+   - #FBE905 yellow = FILL + DARK-surface text only (1.12:1 on white).
+   - On LIGHT surfaces text accents are charcoal/readable grays;
+     where Dave wants yellow, it's a SOLID yellow pill w/ dark text.
+   - Dark cards nested inside light sections re-assert their own
+     colors (never inherit light-surface overrides).
    ============================================================ */
+/* Light-section headings pre-line: crisp charcoal (kills brown-gold mud) */
+.section--light .eyebrow { color: #14100A; }
+/* Muted text must be darker on light cream; dark tiles nested in light
+   sections re-assert the dark-background muted */
 .section--light { --muted: #565C64; }
-.section--light .eyebrow { color: #7A6400; }
-.section--light p a,
-.section--light li a {
+.section--light .gift-denom { --muted: #9AA0A6; }
+
+/* Light-surface inline text links only (no class => not a button);
+   dark nested cards re-overridden below */
+.section--light p a:not([class]),
+.section--light li a:not([class]) {
   color: #14100A;
   text-decoration: underline;
   text-decoration-color: rgba(122,100,0,0.55);
   text-underline-offset: 3px;
 }
-.section--light p a:hover,
-.section--light li a:hover { color: #6E5B00; text-decoration-color: #6E5B00; }
-.section--light .pkg-price { color: #14100A; }
-.section--light .pkg-price small { color: var(--muted); }
+.section--light p a:not([class]):hover,
+.section--light li a:not([class]):hover { color: #6E5B00; text-decoration-color: #6E5B00; }
+
+/* Prices on LIGHT cards = solid yellow pill, dark text (yellow + readable) */
+.section--light .pkg-price {
+  display: inline-block;
+  background: var(--amber);
+  color: #14100A;
+  padding: 6px 14px;
+  border-radius: 6px;
+  margin: 10px 0 4px;
+}
+.section--light .pkg-price small { color: #565C64; font-size: 0.95rem; padding-left: 2px; }
+
+/* Offer chips on light cards = solid yellow pill too */
+.section--light .offer-deadline {
+  display: inline-block;
+  background: var(--amber);
+  color: #14100A;
+  border: none;
+  font-weight: 700;
+}
 .section--light .pkg-includes li::before { color: #7A6400; }
-.section--light .offer-deadline { color: #7A6400; border-color: rgba(122,100,0,0.55); background: rgba(251,233,5,0.18); }
 .section--light .demo-badge { border-color: #7A6400; color: #7A6400; }
+.section--light .pkg-note, .section--light .pkg-time { color: #565C64; }
+.section--light .modal-note { color: #565C64; }
+
+/* Pillar cards are DARK (graphite) even inside light sections */
+.section--light .pillar h3 { color: var(--cream) !important; }
+
+/* Header nav "Book Now" button: nav.main a gray rule must not win */
+nav.main a.btn--primary,
+nav.main a.btn--primary.active,
+nav.main a.btn--primary:hover { color: #14100A; }
+
+/* Ghost buttons on dark cards must be light, not charcoal */
+.section--dark .btn--darkghost,
+.section--graphite .btn--darkghost {
+  color: var(--cream);
+  border-color: rgba(245,242,236,0.50);
+}
+.section--dark .btn--darkghost:hover,
+.section--graphite .btn--darkghost:hover {
+  background: rgba(245,242,236,0.10);
+  color: var(--cream);
+}
+
+/* White review cards inside light sections: dark quote text */
+.section--light .review p { color: #3C3F45; }
+.section--light .review cite { color: #6A6F76; }
+.section--light .review .stars { color: #7A6400; }
+.section--light .review-sample-note { color: #565C64; }
+
+/* contact-info-card is a DARK card inside the light contact section */
+.section--light .contact-info-card li a,
+.section--light .contact-info-card li a:hover { color: var(--amber); text-decoration: none; }
