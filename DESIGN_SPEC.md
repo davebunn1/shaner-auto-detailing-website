@@ -49,14 +49,14 @@ Prairie research lanes (e-gift cards, booking, 2026 detailing benchmark).
 Shaner contacted Dave 09-05. Site must be FUCKING AWESOME — better than every
 detailing site in the region. Local competitors (Midwest Shine Caledonia, Geerts
 Fox Cities) hide prices, use stock photos and builder templates. Shaner's site
-shows 71 REAL work photos + REAL prices + premium dark/amber design → wins the
+shows 71 REAL work photos + REAL prices + premium dark/Shaner-yellow design → wins the
 same search results instantly. This mockup locks the sale; the client previews
 the GitHub Pages URL BEFORE anything is live.
 
 ## 4. Design language (Jacobson formula — benchmark-validated)
 
 - **Palette:** near-black charcoal `#0D0F12`, deep graphite `#15181C`; warm
-  amber accent `#E8A33D` (hover `#F4B95A`); off-white `#F5F2EC`; muted gray
+  Shaner-yellow accent `#FBE905` (sampled from his logo; hover `#E4D600`) — differentiates from Iron Prairie orange; off-white `#F5F2EC`; muted gray
   `#9AA0A6`. Amber ONLY for interactive elements (CTA, phone, links, active
   nav). Dark sections only behind REAL photos. Light sections for pricing cards
   and body readability. Alternate dark proof sections with light content.
@@ -64,11 +64,11 @@ the GitHub Pages URL BEFORE anything is live.
   eyebrows) for display; Inter (400/500/600) for body. No scripts, no extra
   families.
 - **Hero (HARD RULE, Dave):** real Shaner logo IMAGE, big and centered,
-  `width:min(500px,90vw)`, amber glow — NOT a text wordmark. Logo source: among
+  `width:min(500px,90vw)`, yellow glow — NOT a text wordmark. Logo source: among
   the 71 photos (vision scan running; if a logo/shop-sign photo is identified
   use it; else use a clean text-lockup "SHANER AUTO DETAILING" wordmark and
   swap at launch). Tagline h1 below logo: transformation voice, e.g.
-  "Showroom shine. Delivered in Owatonna." Then 2 CTAs: primary amber **Book
+  "Showroom shine. Delivered in Owatonna." Then 2 CTAs: primary yellow **Book
   Now**, secondary ghost **View Services & Pricing**. Trust ribbon under CTAs.
 - **Photography:** the 71 real photos (`images/IMG_63xx.JPG`). Consistent dark
   grading. NEVER stock cars.
@@ -77,7 +77,7 @@ the GitHub Pages URL BEFORE anything is live.
 
 ## 5. Components (shared classes — defined in css/styles.css)
 
-- `.btn`, `.btn--primary` (amber), `.btn--ghost`, `.btn-book`
+- `.btn`, `.btn--primary` (yellow), `.btn--ghost`, `.btn-book`
 - `.topbar` (slim gift-card announcement strip on Home — "Gift Cards Available —
   the perfect present for a fresh ride →")
 - `header.site` sticky w/ logo wordmark + nav + Book Now; `nav a.active`
@@ -85,7 +85,7 @@ the GitHub Pages URL BEFORE anything is live.
 - `.trust-ribbon` (5.0★ · Family-owned · Owatonna MN · Certified)
 - `.stat-band` (3-4 honest stats)
 - `.pillars` (3 cards: CLEAN / CORRECT / PROTECT)
-- `.pkg-cards` + `.pkg-card` (+ `--popular` w/ amber "MOST POPULAR" ribbon;
+- `.pkg-cards` + `.pkg-card` (+ `--popular` w/ yellow "MOST POPULAR" ribbon;
   name, big from-price, checkmark includes, duration, vehicle note, Book CTA)
 - `.addons` (compact à-la-carte price menu)
 - `.beforeafter` (one interactive drag slider — see scripts.js)
