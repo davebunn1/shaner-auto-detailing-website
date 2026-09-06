@@ -166,6 +166,7 @@ nav.main a.active { color: var(--amber); }
 .hero-wordmark { font-family: var(--font-display); font-weight: 800; font-size: clamp(2.8rem, 8vw, 5rem); letter-spacing: 0.02em; line-height: 0.95; text-transform: uppercase; color: var(--cream); }
 .hero-wordmark span { color: var(--amber); }
 .hero-wordmark-sub { font-family: var(--font-display); letter-spacing: 0.42em; text-transform: uppercase; font-weight: 600; color: var(--muted); font-size: clamp(0.8rem, 2vw, 1.05rem); margin-top: 6px; }
+.hero--home { background-image: url('../images/IMG_6365.JPG'); }
 
 /* ---------- Trust ribbon / stats ---------- */
 .trust-ribbon { display: flex; gap: 26px; justify-content: center; flex-wrap: wrap; margin-top: 34px; color: #d6d3cc; font-size: 0.95rem; font-weight: 500; }
