@@ -13,7 +13,7 @@ Prairie research lanes (e-gift cards, booking, 2026 detailing benchmark).
 
 - **Business:** Shaner Auto Detailing LLC — auto detailing / paint correction /
   ceramic coating / PPF (shop + future mobile possible)
-- **Owner:** Brandon Shaner (family-owned & operated voice)
+- **Owner:** Brandon Shaner (owner-operated voice — Brandon does the work himself, independent of All The Details)
 - **Shop address:** 2160 Truman Ave, Owatonna, MN 55060 (Steele County)
 - **Phone:** (507) 456-6119 → every tel href MUST be `tel:+15074566119`
   (11 digits). If redaction shows asterisks, compose href from concatenated
@@ -38,7 +38,7 @@ Prairie research lanes (e-gift cards, booking, 2026 detailing benchmark).
 - Product brands used: GUESS generic "professional-grade products" — do NOT
   invent brand names (no XPEL/Chemical Guys claims unless true).
 - Years in business / vehicles detailed: DO NOT invent numbers. Stat band uses
-  only: "5.0★ Google rating", "Family-owned & operated", "Owatonna, MN",
+  only: "5.0★ Google rating", "Owner-operated & independent", "Owatonna, MN",
   "Certified paint-correction specialist".
 - Testimonials: SAMPLE only — label exactly:
   "Sample testimonials — your real reviews will take their place after launch."
@@ -82,7 +82,7 @@ the GitHub Pages URL BEFORE anything is live.
   the perfect present for a fresh ride →")
 - `header.site` sticky w/ logo wordmark + nav + Book Now; `nav a.active`
 - `.hero` (dark, real bg photo), `.hero-logo img`, `.hero h1`, `.hero-ctas`
-- `.trust-ribbon` (5.0★ · Family-owned · Owatonna MN · Certified)
+- `.trust-ribbon` (5.0★ · Owner-operated · Owatonna MN · Certified)
 - `.stat-band` (3-4 honest stats)
 - `.pillars` (3 cards: CLEAN / CORRECT / PROTECT)
 - `.pkg-cards` + `.pkg-card` (+ `--popular` w/ yellow "MOST POPULAR" ribbon;

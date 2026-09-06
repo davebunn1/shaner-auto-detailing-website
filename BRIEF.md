@@ -43,7 +43,8 @@ lock the sale. Real details verified below; unverified items flagged GUESS.
 ## Open questions for Dave (non-blocking, prototype proceeds on best guess)
 
 - Business name for site: is it "Shaner Auto Detailing LLC" (a June FB post
-  mentioned the business joining "All the Details, LLC" — confirm not a rename)?
+  mentioned the business joining "All the Details, LLC" — confirm not a rename)? **RESOLVED 09-06: Brandon
+  was previously with All The Details, LLC; he is now on his own under Shaner Auto Detailing LLC — no affiliation.**
 - Phone 507-456-6119 correct for tap-to-call?
 - Hours confirmation (by appointment vs Fri/Sat window).
 - Real package names/prices? (Using researched standard packages until then.)
